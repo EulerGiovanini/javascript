@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculo da Média</title>
+</head>
+
+<body>
+    <h1>Cálculo da média</h1>
+    <form name="frmMedia">
+        <p>
+            <input type="text" name="txtNota1" placeholder="Nota1"></p>
+        <p>
+            <input type="text" name="txtNota2" placeholder="Nota2"></p>
+        <p>
+            <input type="button" value="Calcular" onclick="calcular()">
+            <input type="reset" value="Limpar"></p>
+        <p>
+            <input type="text" name="txtMedia" placeholder="Resultado"></p>
+    </form>
+
+<hr>
+
+<h1>Cálculo IMC</h1>
+<form name="frmImc">
+    <p>
+        <input type="text" name="txtPeso" placeholder="Peso em kilos"></p>
+    <p>
+        <input type="text" name="txtAltura" placeholder="Altura em metros"></p>
+    <p>
+        <input type="button" value="Calcular" onclick="calcularImc()">
+        <input type="reset" value="Limpar"></p>
+    <p>
+        <input type="text" name="txtResultImc" placeholder="Resultado"></p>
+</form>
+
+    <script src="media.js"></script>
+</body>
+
+</html>
