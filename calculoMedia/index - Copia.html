@@ -19,11 +19,23 @@
             <input type="button" value="Calcular" onclick="calcular()">
             <input type="reset" value="Limpar"></p>
         <p>
-            <input type="text" name="txtMedia" placeholder="Resultado" disabled></p>
-            <input type="text" name="txtStatus" placeholder="Status" disabled></p>
+            <input type="text" name="txtMedia" placeholder="Resultado"></p>
     </form>
 
 <hr>
+
+<h1>Cálculo IMC</h1>
+<form name="frmImc">
+    <p>
+        <input type="text" name="txtPeso" placeholder="Peso em kilos"></p>
+    <p>
+        <input type="text" name="txtAltura" placeholder="Altura em metros"></p>
+    <p>
+        <input type="button" value="Calcular" onclick="calcularImc()">
+        <input type="reset" value="Limpar"></p>
+    <p>
+        <input type="text" name="txtResultImc" placeholder="Resultado"></p>
+</form>
 
     <script src="media.js"></script>
 </body>
