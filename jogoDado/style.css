@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color:black;
+  background-color:tan;
+  padding: 15px 32px;
+}
+::placeholder{
+  color: rgb(251, 255, 255);
+}
+#container{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 15px; 
+  padding: 3vw;
+  position: relative;
+}
+#texto{
+  color: darkslategray;
+  background-color:white;
+  width: 40%;
+  height: 40%;
+  text-align: center;
+  border-radius: 15px; 
+  margin-right: 5vw;
+
+}
+#imagem{
+  color: yellow;
+  background-color:white;
+  width: 40%;
+  height: 40%;
+  text-align: center;
+  border-radius: 15px; 
+  padding: 7px ;
+  margin-right: 5vw;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  align-items: center;
+}
+
+#txtPeso{
+  background-color: royalblue; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 36px;
+  border-radius: 15px;
+  width: 300px;
+}
+#txtAltura{
+  background-color: royalblue; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 36px;
+  border-radius: 15px;
+  width: 300px;
+}
+
+#txtResultImc{
+  background-color:goldenrod ; /* Green */
+  border: none;
+  color: darkred;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 36px;
+  border-radius: 15px;
+  width: 300px;
+}
+
+#Limpar{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: goldenrod;
+  padding: 15px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 36px;
+  border-radius: 15px;
+  width: 150px;
+  
+}
+#btnCalcular {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: goldenrod;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 36px;
+  border-radius: 15px;
+  width: 200px;
+}
